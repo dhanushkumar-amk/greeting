@@ -1,0 +1,36 @@
+* {  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+:root {
+  --body-color: #efefef;
+  --nav-color: #1876f2;
+  --bg-color: #fff;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.container {
+  font-size: 1.3em;
+  width: 25em;
+  background: linear-gradient(-240deg, #1876f2 70%, #1876f2 70%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 4.5em 1.3em;
+  border-radius: 0.4em;
+  box-shadow: 0 1.3em 1.8em rgba(0, 0, 0, 0.5);
+  color: var(--bg-color);
+}
+
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  word-spacing: 0.4em;
+}
